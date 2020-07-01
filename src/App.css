@@ -1,0 +1,21 @@
+.App{
+    display: flex;
+    width: 1010px;
+    margin: 0 auto;
+}
+
+.sortButtons{
+    margin-right: 100px;
+    overflow: hidden;
+    padding-top: 75px;
+}
+
+.visual-box{
+    margin-right: 100px;
+    text-align: center;
+}
+
+.condButtons{
+    overflow: hidden;
+    padding-top: 75px;
+}

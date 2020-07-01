@@ -7,3 +7,30 @@ ol, ul { list-style: none; }
 table { border-collapse: collapse; border-spacing: 0;}
 a {text-decoration:none; outline:none}
 a:hover { cursor:pointer; text-decoration:none; text-indent:0}
+body{font-family: Arial, serif;}
+
+/*
+    COMMON CSS
+ */
+
+.btn{
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #0073b1;
+    background: #0073b1;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.btn:hover{
+    background: #006097;
+    cursor: pointer;
+}
+
+.btn:active{
+    transform: translate(2px, 2px);
+}
